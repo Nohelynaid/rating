@@ -1,0 +1,144 @@
+body{
+    width: 100%;
+    background-color:hsl(216, 12%, 8%) !important;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container-fluid{
+    color: hsl(0, 0%, 100%);
+    height: 350px;
+    width: 350px ;
+    margin: 10% 35%;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 6%;   
+}
+
+
+
+/**/
+.svg-container, 
+.numbers {
+    margin-bottom: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: hsl(216, 14%, 21%);
+  }
+
+.star-img{
+    position:relative;
+    left: 14px;
+    top: 10px;
+}
+
+
+.main-text{
+    padding: 30px 15px 3px;
+}
+
+h1{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.text-1, .text-2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+
+/*NUMBER CONTAINER*/
+.number-cont{
+    display: flex;
+    text-align:center;
+    justify-content: space-evenly;
+    
+}
+
+.numbers{
+    margin-right:5px;
+    border-style: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.numbers:hover{
+    background-color:hsl(25, 97%, 53%) ;
+    cursor: pointer;
+}
+
+button.clicked{
+    background-color: hsl(216, 12%, 54%);
+}
+
+.selected:focus {
+  background-color: hsl(216, 12%, 54%);
+}
+
+
+
+
+/*SUBMIT BUTTON*/
+.btn{
+   font-size: 13px;
+   font-weight: 700;
+   background-color: hsl(25, 97%, 53%);
+    border-radius: 1.5rem;
+    padding:9px 120px;
+    margin-left:15px;
+    border-style: none;
+    letter-spacing: 1.5px;
+}
+
+.btn:hover{
+    background-color:  hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%); ;
+}
+
+
+/*THANK YOU CONTAINER*/
+
+
+
+.ty-state{
+   padding: 35px 0 0 80px;
+}
+
+#rating{
+    font-size: 12px;
+    color: hsla(25, 94%, 59%, 0.8);
+    background-color: hsl(216, 14%, 21%);
+    padding: 5px;
+    text-align: center;
+    border-radius: 1.5rem; 
+    width: 150px;
+    margin: 15px auto 30px ;
+}
+
+
+.ty-text{
+    text-align: center;
+    padding: 0 15px;
+}
+
+/*LAYOUT*/
+@media (max-width: 845px) {
+    .container-fluid{
+        margin:40% auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .container-fluid{
+        max-width: 320px;
+    }
+
+    .btn{
+        margin-left: 0;
+    }
+
+    .ty-state{
+        padding-left: 60px;
+    }
+}
