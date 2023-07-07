@@ -1,0 +1,2 @@
+# rating
+Interactive rating component
