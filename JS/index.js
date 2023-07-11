@@ -47,6 +47,7 @@ The content of the HTML element is then updated with the value stored in the var
   div1.style.display = 'block';
   div2.style.display = 'none';
 
+   // Add event listener to the submit button
   submitBtn.addEventListener('click', handleSubmit);
 
 });
@@ -57,8 +58,4 @@ The content of the HTML element is then updated with the value stored in the var
 
 
 
-  // Add event listener to the submit button
-  submitBtn.addEventListener('click', handleSubmit);
-
-  
-});
+ 
